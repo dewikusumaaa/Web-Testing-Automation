@@ -13,14 +13,14 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 29287596700,
+  "duration": 10809849300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 6,
-  "name": "User will short item by Name (Z to A)",
+  "name": "User will ordering product",
   "description": "",
-  "id": "purchase-flow;user-will-short-item-by-name-(z-to-a)",
+  "id": "purchase-flow;user-will-ordering-product",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -61,7 +61,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "User input \"Dewi\" as setFirstname and \"Kusuma\" as setLastname and \"28772\" as setPostalcode",
+  "name": "User input \"Juminten\" as setFirstname and \"Washington\" as setLastname and \"200005\" as setPostalcode",
   "keyword": "Then "
 });
 formatter.step({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "LoginSteps.verifyLoginPage()"
 });
 formatter.result({
-  "duration": 2152335399,
+  "duration": 470952800,
   "status": "passed"
 });
 formatter.match({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "LoginSteps.inputCredential(String,String)"
 });
 formatter.result({
-  "duration": 2846427699,
+  "duration": 457007400,
   "status": "passed"
 });
 formatter.match({
@@ -128,63 +128,63 @@ formatter.match({
   "location": "PurchaseSteps.selectProductCart(String)"
 });
 formatter.result({
-  "duration": 3887130701,
+  "duration": 3424235200,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.selectitem()"
 });
 formatter.result({
-  "duration": 157912800,
+  "duration": 198674400,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.shoppingChart()"
 });
 formatter.result({
-  "duration": 99637700,
+  "duration": 124566900,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.RemoveItem1()"
 });
 formatter.result({
-  "duration": 76806200,
+  "duration": 86126300,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.checkout()"
 });
 formatter.result({
-  "duration": 90799899,
+  "duration": 102939900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Dewi",
+      "val": "Juminten",
       "offset": 12
     },
     {
-      "val": "Kusuma",
-      "offset": 39
+      "val": "Washington",
+      "offset": 43
     },
     {
-      "val": "28772",
-      "offset": 67
+      "val": "200005",
+      "offset": 75
     }
   ],
   "location": "PurchaseSteps.inputCredential(String,String,String)"
 });
 formatter.result({
-  "duration": 428256000,
+  "duration": 462638200,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.continueCheckout()"
 });
 formatter.result({
-  "duration": 177566300,
+  "duration": 195643200,
   "status": "passed"
 });
 formatter.match({
@@ -197,7 +197,7 @@ formatter.match({
   "location": "PurchaseSteps.ExpectedItemTotal(String)"
 });
 formatter.result({
-  "duration": 97096200,
+  "duration": 74476900,
   "status": "passed"
 });
 formatter.match({
@@ -210,7 +210,7 @@ formatter.match({
   "location": "PurchaseSteps.ExpectedTAX(String)"
 });
 formatter.result({
-  "duration": 67889100,
+  "duration": 76027900,
   "status": "passed"
 });
 formatter.match({
@@ -223,14 +223,14 @@ formatter.match({
   "location": "PurchaseSteps.ExpectedTotal(String)"
 });
 formatter.result({
-  "duration": 63381001,
+  "duration": 100989300,
   "status": "passed"
 });
 formatter.match({
   "location": "PurchaseSteps.Finish()"
 });
 formatter.result({
-  "duration": 118566499,
+  "duration": 101351200,
   "status": "passed"
 });
 formatter.match({
@@ -243,11 +243,11 @@ formatter.match({
   "location": "PurchaseSteps.done(String)"
 });
 formatter.result({
-  "duration": 69522800,
+  "duration": 73124900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1458477300,
+  "duration": 3732682100,
   "status": "passed"
 });
 });

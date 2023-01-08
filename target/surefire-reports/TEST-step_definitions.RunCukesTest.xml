@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="15" failures="0" name="step_definitions.RunCukesTest" time="1.464" errors="0" skipped="0">
+<testsuite tests="15" failures="0" name="step_definitions.RunCukesTest" time="3.748" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.1"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Users\win10\.jdks\corretto-1.8.0_352\jre\bin"/>
-    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="java.vm.version" value="25.351-b10"/>
     <property name="user.country.format" value="ID"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Program Files\apache-maven-3.8.6\automationSauce"/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\win10\Documents\Web-Testing-Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Program Files\apache-maven-3.8.6\automationSauce"/>
-    <property name="java.runtime.version" value="1.8.0_352-b08"/>
+    <property name="user.dir" value="C:\Users\win10\Documents\Web-Testing-Automation"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\win10\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -32,7 +32,7 @@
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\win10\.jdks\corretto-1.8.0_352\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\win10\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\win10\AppData\Local\Android\Sdk\tools;C:\Users\win10\AppData\Local\Android\Sdk\platform-tools;C:\Windows\System32;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.17;C:\Users\win10\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\win10\AppData\Local\Programs\Python\Python38-32\;C:\Users\win10\AppData\Local\Programs\Python\Launcher\;C:\Users\win10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2022.1.3\bin;;C:\Users\win10\AppData\Roaming\npm;C:\Users\win10\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven3/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -47,39 +47,39 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\lib\idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Users\win10\.jdks\corretto-1.8.0_352\jre"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
     <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.1 test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="id"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_352"/>
-    <property name="java.ext.dirs" value="C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\resources.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\rt.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\sunrsasign.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\jsse.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\jce.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\charsets.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\lib\jfr.jar;C:\Users\win10\.jdks\corretto-1.8.0_352\jre\classes"/>
-    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.specification.maintenance.version" value="4"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.1\plugins\maven\lib\maven3"/>
     <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Given User open the web page(Scenario: User will short item by Name (Z to A))" name="Given User open the web page(Scenario: User will short item by Name " time="0.004"/>
-  <testcase classname="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password(Scenario: User will short item by Name (Z to A))" name="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will short item by Name (Z to A))" name="Then User sort product list by &quot;Name (Z to A)&quot;(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User select 2 item in first line(Scenario: User will short item by Name (Z to A))" name="Then User select 2 item in first line(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User click shopping chart icon(Scenario: User will short item by Name (Z to A))" name="Then User click shopping chart icon(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User remove top item in list shopping chart(Scenario: User will short item by Name (Z to A))" name="Then User remove top item in list shopping chart(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="And User checkout the item(Scenario: User will short item by Name (Z to A))" name="And User checkout the item(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User input &quot;Dewi&quot; as setFirstname and &quot;Kusuma&quot; as setLastname and &quot;28772&quot; as setPostalcode(Scenario: User will short item by Name (Z to A))" name="Then User input &quot;Dewi&quot; as setFirstname and &quot;Kusuma&quot; as setLastname and &quot;28772&quot; as setPostalcode(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="And User click continue(Scenario: User will short item by Name (Z to A))" name="And User click continue(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User will see &quot;Item total: $7.99&quot; as expected Item total(Scenario: User will short item by Name (Z to A))" name="Then User will see &quot;Item total: $7.99&quot; as expected Item total(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="And &quot;Tax: $0.64&quot; as expected Tax(Scenario: User will short item by Name (Z to A))" name="And &quot;Tax: $0.64&quot; as expected Tax(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="And &quot;Total: $8.63&quot; as expected Total(Scenario: User will short item by Name (Z to A))" name="And &quot;Total: $8.63&quot; as expected Total(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User click Finish(Scenario: User will short item by Name (Z to A))" name="Then User click Finish(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Then User will see &quot;THANK YOU FOR YOUR ORDER&quot; as finishing(Scenario: User will short item by Name (Z to A))" name="Then User will see &quot;THANK YOU FOR YOUR ORDER&quot; as finishing(Scenario: User will short item by Name " time="0"/>
-  <testcase classname="Z to A" name="Scenario: User will short item by Name " time="1.46"/>
+  <testcase classname="Scenario: User will ordering product" name="Given User open the web page" time="0.005"/>
+  <testcase classname="Scenario: User will ordering product" name="When User input &quot;standard_user&quot; as userName and &quot;secret_sauce&quot; as password" time="0.001"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User select 2 item in first line" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User click shopping chart icon" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User remove top item in list shopping chart" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="And User checkout the item" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User input &quot;Juminten&quot; as setFirstname and &quot;Washington&quot; as setLastname and &quot;200005&quot; as setPostalcode" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="And User click continue" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User will see &quot;Item total: $7.99&quot; as expected Item total" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="And &quot;Tax: $0.64&quot; as expected Tax" time="0.006"/>
+  <testcase classname="Scenario: User will ordering product" name="And &quot;Total: $8.63&quot; as expected Total" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User click Finish" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Then User will see &quot;THANK YOU FOR YOUR ORDER&quot; as finishing" time="0"/>
+  <testcase classname="Scenario: User will ordering product" name="Scenario: User will ordering product" time="3.736"/>
 </testsuite>
